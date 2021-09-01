@@ -11,8 +11,9 @@ rdsyyc@umsystem.edu
 </head>
 
 <body>
+    <!-- This div section is the intro. it explains what to expect from the site -->
     <div>
-        <h1>My Favroite Movies</h1>
+        <h1>My Favorite Movies</h1>
 
         <p>
             This website talks about some of my favorite movies that I've seen over the years.<br>
@@ -20,23 +21,25 @@ rdsyyc@umsystem.edu
         </p>
     </div>
 
-    <div>
-        <article>
-            <h2>My list</h2>
-            <p> Here are my favorite movies, in no particular order:</p>
-            <ul>
-                <li> <img src="https://upload.wikimedia.org/wikipedia/en/c/ca/Big_Daddy_film.jpg" alt="Big Daddy (1999)"> </li>
-                <li> <img src="https://upload.wikimedia.org/wikipedia/en/0/01/Whiplash_poster.jpg" alt="Whiplash (2015)"> </li>
-                <li> <img src="https://upload.wikimedia.org/wikipedia/en/6/66/Transformers07.jpg" alt="Transformers (2007)"> </li>
-            </ul>
-        </article>
-    </div>
+    <!-- Div section that goes and displays a list of my favorite movies -->
+    <article>
+        <h2>My list</h2>
+        <p> Here are my favorite movies, in no particular order:</p>
+        <!-- unordered list where I call an images web address in order to display on my site -->
+        <ul>
+            <li> <img src="https://upload.wikimedia.org/wikipedia/en/c/ca/Big_Daddy_film.jpg" alt="Big Daddy (1999)"> </li>
+            <li> <img src="https://upload.wikimedia.org/wikipedia/en/0/01/Whiplash_poster.jpg" alt="Whiplash (2015)"> </li>
+            <li> <img src="https://upload.wikimedia.org/wikipedia/en/6/66/Transformers07.jpg" alt="Transformers (2007)"> </li>
+        </ul>
+    </article>
 
+    <!-- div section makes an ordered list of my favorite movies -->
     <div>
-        <br>
+        <br> <!-- <br> used for clarity on site -->
         <h3>My list...Ranked</h3>
         <p>If I had to rank them, it would look like this:</p>
 
+        <!-- ordered lists  displays my favorite movies. <span> is used to bold entire statement -->
         <ol>
             <li> <span style="font-weight: bold;"> Whiplash  (2014)</span> </li>
             <li> <span style="font-weight: bold;"> Big Daddy (1999)</span> </li>
@@ -44,17 +47,35 @@ rdsyyc@umsystem.edu
         </ol>
     </div>
 
+    <!-- div displays more photos, and provides links to movie trailers -->
     <div>
         <p>
             <img src="https://img.cinemablend.com/filter:scale/quill/d/1/e/7/3/b/d1e73b8f41c93263a14c990f5158768fa30c371b.jpg?mw=600" alt="Big Daddy (1999)">
             <img src="https://www.tasteofcinema.com/wp-content/uploads/2016/06/whiplash-miles-teller.png" alt="Whiplash (2014)">
         </p>
-        <p>
+
+        <!-- here links are provided to the movie trailers, we have <br> at the end of each statement to separate links for clarity -->
+        <!-- <ASIDE> and <SECTION> are used to clearly define content -->
+        <aside>
+            <section>
             <a href="https://www.youtube.com/watch?v=jxnccxgybUI"> Here is a trailer for Big Daddy (left)</a> <br>
             <a href="https://www.youtube.com/watch?v=7d_jQycdQGo"> Here is a trailer for Whiplash (right)</a> <br>
             <a href="https://www.youtube.com/watch?v=dxQxgAfNzyE"> Here is a trailer for Transformers (not pictured)</a> <br>
-        </p>
+            </section>
+        </aside>
     </div>
+
+    <!-- below the article displays critique's movie reviews. -->
+    <article>
+        <h2>Critique's Reviews</h2>
+
+        <p> <!-- &emsp; will 'indent' or add four spaces before the rest of the content -->
+            "This lightweight, bubblegum caper synthesises robust, physical humour, self-deprecation and witty one-liners. <br>
+            The main problem, as with most other dumb boy pictures, is that the supporting characters are underwritten." <br>
+            <em>&emsp;- Time Out Publication</em>
+        </p>
+
+    </article>
 
 </body>
 </html>
