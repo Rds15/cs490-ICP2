@@ -14,10 +14,8 @@ h1 {
 
 .grid
 {
-    display: block;
     grid-template-columns: auto auto auto;
     padding: 10px;
-    text-align: center;
 }
 
 .grid-item {
