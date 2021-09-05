@@ -78,6 +78,10 @@ body {
     align-content: center;
     flex-wrap: wrap;
 }
+.main-content img {
+    width: 272px;
+    height: 92px;
+}
 .grid
 {
     display: inline-block;
@@ -86,16 +90,15 @@ body {
     padding: 10px;
     text-align: center;
 }
+.grid img {
+    width: 90px;
+    height: 92px;
+}
 
 .grid-item {
     border: 1px; rgba(0, 0, 0, 0.8);
     width: 100px;
     height: 90px;
-}
-
-.main-content img {
-    width: 100px;
-    height: 92px;
 }
 
 #search-bar {
