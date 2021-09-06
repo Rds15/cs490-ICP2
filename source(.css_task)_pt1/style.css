@@ -106,12 +106,6 @@ grid img container sets the proper size of icons
     height: 90px;
 }
 
-.grid-item {
-    border: 1px; rgba(0, 0, 0, 0.8);
-    width: 100px;
-    height: 90px;
-}
-
 #search-bar {
     position: relative;
     flex-basis: 100%;
