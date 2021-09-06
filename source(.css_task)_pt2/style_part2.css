@@ -1,3 +1,8 @@
+
+/* h1 element will be colored green
+    the text will be centered
+    the width will be 50%, and more.
+*/
 h1 {
     color: green;
     text-align: center;
@@ -5,6 +10,11 @@ h1 {
     width: 50%;
     padding: 10px;
 }
+
+/*
+main container will set the width of the grid.
+this will allows us to make a 3x3 grid that is 70x70px
+ */
 .main
 {
     width: 240px;
@@ -12,12 +22,18 @@ h1 {
     margin-right: auto;
 }
 
+/*
+grid container grid will provide padding and proper column gap measurements
+ */
 .grid
 {
     grid-template-columns: auto auto auto;
     padding: 10px;
 }
-
+/*
+"display inline block" will allow us to place blocks next to eachother
+width x height is 70x70 because thats what the documents calls for
+ */
 .grid-item {
     display: inline-block;
     width: 70px;
