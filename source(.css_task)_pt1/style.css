@@ -33,6 +33,10 @@ body {
     text-decoration: underline;
 }
 
+/*
+#nav-bar img lets us customize ANY photo under the 'nav-bar' id selector
+we simply mage the images smaller to fit the same size of the navigation bar
+ */
 #nav-bar img {
     width: 30px;
     height: 30px;
